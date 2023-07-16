@@ -1,0 +1,78 @@
+.notf {
+    position: fixed;
+
+    bottom: 25px;
+    left: 50%;
+
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+.notf section {
+    width: calc(400px - 20px - 110px);
+    min-height: 75px;
+
+    background: linear-gradient(180deg, rgba(19, 19, 26, 0.63) 0%, #13131A 100%);
+    border-radius: 2px;
+
+    padding: 0 15px;
+    padding-left: 110px;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    transition: .3s;
+}
+.notf section + section {
+    margin-top: 10px;
+}
+.notf section img {
+    position: absolute;
+
+    top: 50%;
+    left: 30px;
+
+    transform: translateY(-50%);
+
+    width: 50px;
+    height: auto;
+}
+.notf section h1 {
+    text-align: left;
+    width: 100%;
+
+    font-size: 16px;
+    color: white;
+
+    line-height: 20px;
+}
+.notf section span {
+    font-weight: 400;
+    line-height: 17px;
+
+    color: #FFFFFFBF;
+
+    text-align: left;
+    width: 100%;
+}
+
+
+.notf .notf-donate div {
+    position: absolute;
+
+    top: 50%;
+    left: 30px;
+
+    transform: translateY(-50%);
+
+    min-width: 30px;
+    height: 30px;
+
+    background-color: #C2943D;
+    border-radius: 50%;
+
+    border: 5px solid #EDB243;
+}
